@@ -1,0 +1,29 @@
+/*style.css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+nav{
+    background-color: #333;
+    padding: 15px 0;
+    text-align: center;
+}
+nav ul  {
+list-style: none;
+display: inline-flex;
+justify-content: center;
+}
+nav ul li {
+    background-color: #555;
+    border-radius: 5px;
+}
+.content {
+    text-align: center;
+    line-height: 1.6;
+}
